@@ -254,7 +254,7 @@ p {
 }
 
 .join:hover {
-   background-color: red;     
+   background-color: red;
 }
 
 section {
@@ -391,4 +391,4 @@ a:active, a:focus, a:visited {
     background: red
 }
 
-
+/*jerry rigged css stolen from pwr studio*/

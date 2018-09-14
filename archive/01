@@ -1,4 +1,4 @@
-﻿<html><head>
+<html><head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>IIT Film Club</title>
 
@@ -62,15 +62,9 @@
             <a href="/archive/17/0910.html"   class="txt-container">
                 <h1><u>2017</u></h1>
             </a>
-            <a href="/archive/17/0910.html"   class="txt-container">
-                <h1><u>2018</u></h1>
-            </a>
 
-            <a href="/pst/flyers.html"   class="txt-container">
-                <h1><u>Flyers</u></h1>
-            </a>
-            <a href="/archive/01.html"   class="txt-container">
-                <h1><u>About Film Club</u></h1>
+            <a href="/archive/about.html"   class="txt-container">
+              <p>IIT Film Club was founded in 2017 at the Illinois Institute of Technology.</p>
             </a>
 
         </div>
