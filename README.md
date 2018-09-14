@@ -1,2 +1,1 @@
-# IITFC
-IIT Film Club
+Organizing campus film interests.
