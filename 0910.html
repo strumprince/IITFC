@@ -6,6 +6,17 @@
     <meta name="description" content="Illinois Institute of Technology Film Club">
     <link rel="stylesheet" href="../../../../style.css">
     <link href="style.css" rel="stylesheet" type="text/css">
+
+    <!-- GTAG.js -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125826374-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125826374-1');
+        </script>
+
 </head>
 <body class="black">
       <header>
@@ -37,20 +48,14 @@
                           <a href="https://hawklink.iit.edu/organization/filmclub">[iit]</a>
                       </p>
                       <br>
-
-          <!-- MAILING LIST !-->
-               <form id="signup" class="mailform" action="https://script.google.com/macros/s/AKfycbyr-KYwhjMX-AqDoBG0TQOY0ASPyleP6Tadg4rvhOxBpDNSlg8/exec" method="post">
-               <input type="hidden" name="_subject" value="FC Sign Up">
-               <input type="hidden" name="_format" value="plain">
-               <input class="email" type="text" name="email" placeholder="e-mail">
-               <input class="join" type="submit" name="submit" value="Join"></form>
-
-<!--            <form action="https://formspree.io/rokhandi@hawk.iit.edu"
-                      method="POST">
-                    <input type="text" name="name">
-                    <input type="email" name="_replyto">
-                    <input type="submit" value="Send">
-                </form> -->
+          <!-- MAILING LIST -->
+               <form id "signup" class="mailform" action="https://getsimpleform.com/messages?form_api_token=1c9c3dffcece6cd62e60e508325d51f5"
+                 method="POST">
+                 <input type="hidden" name="_subject" value="FC Sign Up">
+                 <input type="hidden" name="_format" value="plain">
+                             <input class="email" type="text" name="email" placeholder="e-mail">
+                             <input class="join" type="submit" name="submit" value="Join">
+               </form>
 
             <!-- MONTHS -->
             <p id="dates">
