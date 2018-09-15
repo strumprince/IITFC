@@ -52,8 +52,10 @@
 -->
                 <form id "signup" class="mailform" action="https://getsimpleform.com/messages?form_api_token=1c9c3dffcece6cd62e60e508325d51f5"
                   method="POST">
-                  <input type="text" name="_replyto">
-                  <input type="submit" value="Send">
+                  <input type="hidden" name="_subject" value="FC Sign Up">
+              		<input type="hidden" name="_format" value="plain">
+                              <input class="email" type="text" name="email" placeholder="e-mail">
+                              <input class="join" type="submit" name="submit" value="Join">
                 </form>
 
             <!-- MONTHS -->
