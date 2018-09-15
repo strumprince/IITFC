@@ -17,6 +17,18 @@ header {
     padding-right: 24px;
     text-align: right;
     padding-top: .5px;
+    display:inline-block;
+    margin-top:0px;
+}
+.organizing {
+    display:inline-block;
+}
+
+#top-mail {
+    display: inline-block;
+}
+#bottom-mail{
+    display: none;
 }
 
 .logo {
@@ -244,12 +256,50 @@ p {
     width: 12px
 }
 
+
+@media (max-width: 370px){
+    .small-dash {
+        display: none;
+    }
+    .med-dash { 
+        display: inline-block; 
+    }
+    #dates {
+        max-width: 14em;
+    }
+    #right {
+        margin-top:20px;
+    }    
+    .small-dash-edit {
+        margin-left:11px;
+    }
+}
+@media (max-width: 406px) {
+    #schedule-day {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 730px) {
+    .organizing {
+        padding-top:20px
+    }
+}
+
 @media (max-width: 900px) {
-    .location, .mobile {
+    .med-dash {
         display: none;
     }
     #dates {
         max-width: 18em;
+    }
+    section.left {
+        padding-right: 0
+    }
+    section.right {
+        padding-left: 0
+    }
+    section {
+        width: 100%
     }
 }
 
@@ -262,32 +312,18 @@ section {
     float: left
 }
 
-@media (max-width: 900px) {
-    section {
-        width: 100%
-    }
-}
 
 section.left {
     padding-right: 24px
 }
 
-@media (max-width: 900px) {
-    section.left {
-        padding-right: 0
-    }
-}
 
 section.right {
     margin-bottom: 144px;
     padding-left: 24px
 }
 
-@media (max-width: 900px) {
-    section.right {
-        padding-left: 0
-    }
-}
+
 
 h1, h2 {
     text-transform: uppercase
