@@ -257,7 +257,7 @@ p {
 }
 
 
-@media (max-width: 370px){
+@media (max-width: 406px){
     .small-dash {
         display: none;
     }
@@ -274,7 +274,12 @@ p {
         margin-left:11px;
     }
 }
-@media (max-width: 406px) {
+@media (min-width: 406px and max-width: 500px){
+    #dates {
+        max-width: 14em;
+    }
+}
+@media (min-width: 370px and max-width: 406px) {
     #schedule-day {
         margin-bottom: 10px;
     }
@@ -285,7 +290,7 @@ p {
     }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 406px and max-width: 900px) {
     .med-dash {
         display: none;
     }
@@ -302,7 +307,11 @@ p {
         width: 100%
     }
 }
-
+@media (max-width:238px){
+    .small-dash, .med-dash, .small-dash-edit {
+        display: inline-block;
+    }
+}
 .join:hover {
    background-color: red;
 }
