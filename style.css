@@ -261,15 +261,15 @@ p {
     .small-dash {
         display: none;
     }
-    .med-dash { 
-        display: inline-block; 
+    .med-dash {
+        display: inline-block;
     }
     #dates {
         max-width: 14em;
     }
     #right {
         margin-top:20px;
-    }    
+    }
     .small-dash-edit {
         margin-left:11px;
     }
