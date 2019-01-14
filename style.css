@@ -436,4 +436,17 @@ a:active, a:focus, a:visited {
     background: red
 }
 
+@media screen and (max-width: 500px) {
+  html {
+    font-size:1.2em;
+    margin:1.2em;
+  }
+
+@media screen and (min-width: 800px) {
+  html{
+    margin-left:15%;
+    margin-right:15%;
+  }
+}
+
 /*jerry rigged css stolen from pwr studio*/
